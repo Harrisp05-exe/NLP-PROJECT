@@ -62,7 +62,7 @@ def predict(message: str, model, vectorizer):
 def main():
     st.set_page_config(page_title="SMS Spam Detector (Hindi & English)", page_icon="📩", layout="centered")
 
-    st.title("📩 SMS Spam Detector")
+    st.title(" Hindi SMS Spam Detector")
     st.write(
         "Type or paste an SMS message below (in **Hindi** or **English**) "
         "to predict whether it is **Spam** or **Ham** (legitimate)."
@@ -129,8 +129,8 @@ def main():
                 st.info(f"**Cleaned Tokens Used by {selected_model_name}:**")
                 st.code(cleaned if cleaned else "(No valid tokens found after cleaning)")
 
-    st.divider()
-    st.caption("Trained on 15,000 SMS messages using TF-IDF Bi-grams with scikit-learn.")
+    
+    st.caption("")
 
 
 if __name__ == "__main__":
