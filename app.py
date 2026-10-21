@@ -95,7 +95,7 @@ def main():
 
     st.title("📩 Hindi SMS Spam Detector")
     st.write(
-        "Type or paste an SMS message below (in **Hindi** or **English**) "
+        "Type or paste an SMS message below (in **Hindi**) "
         "to predict whether it is **Spam** or **Ham** (legitimate)."
     )
 
