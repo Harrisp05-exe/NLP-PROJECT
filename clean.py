@@ -75,10 +75,10 @@ def basic_clean(df: pd.DataFrame) -> pd.DataFrame:
 
 def clean_text(text: str) -> str:
     """
-    Normalize a single SMS message (works for Hindi and English):
+    Normalize a single SMS message (works for Hindi ):
       - lowercase
       - remove URLs and emails
-      - remove non-alphabetic characters (preserving Devanagari & English)
+      - remove non-alphabetic characters 
       - tokenize on whitespace
       - drop stopwords
       - stem English tokens with PorterStemmer
